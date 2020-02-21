@@ -1,0 +1,9 @@
+#nav-bar,
+#social-media {
+    display: inline;
+}
+
+#nav-bar a,
+#social-media a{
+    text-decoration: none;
+}
