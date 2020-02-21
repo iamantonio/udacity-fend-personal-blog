@@ -1,3 +1,13 @@
+body {
+    font-family: 'Lacquer';
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 #nav-bar,
 #social-media {
     display: inline;
