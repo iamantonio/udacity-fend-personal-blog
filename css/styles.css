@@ -1,5 +1,11 @@
 body {
     font-family: 'Lacquer';
+    background-color: #2e3131;
+    height: 100%;
+}
+
+.container {
+    background-color: #f2f1ef;
 }
 
 header {
@@ -10,10 +16,43 @@ header {
 
 #nav-bar,
 #social-media {
-    display: inline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*border: 2px solid red;*/
+}
+
+.blog-title {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    margin-right: 25px;
 }
 
 #nav-bar a,
-#social-media a{
+#social-media a {
     text-decoration: none;
+    color: #f2f1ef;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+#social-media {
+    padding-top: 20px;
+}
+
+#copy-right {
+    text-align: center;
+    color: #f2f1ef;
+}
+
+#message-box {
+    width: 100%;
+    box-sizing: border-box;
 }
